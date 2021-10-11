@@ -47,8 +47,8 @@ const style = StyleSheet.create({
 
   },
   input:{
-    // backgroundColor: '#202024',
-    borderColor: '#B5B5B5',
+    backgroundColor: '#202024',
+    borderStyle: 'none',
     height: '45px',
     color: 'white',
     fontSize: '16px'
@@ -78,35 +78,35 @@ export default function Cadastro() {
           <FormControl>
             <FormControl.Label
               _text={{
-                color: '#04d361',
+                color: '#D4D4D4',
                 fontSize: '20px',
                 fontWeight: 500,
               }}>
               Nome
             </FormControl.Label>
-            <Input variant="underlined" style={style.input} />
+            <Input style={style.input} />
           </FormControl>
           <FormControl>
             <FormControl.Label
               _text={{
-                color: '#04d361',
+                color: '#D4D4D4',
                 fontSize: '20px',
                 fontWeight: 500,
               }}>
               Cpf
             </FormControl.Label>
-            <Input variant="underlined" style={style.input} />
+            <Input  style={style.input} />
           </FormControl>
           <FormControl>
             <FormControl.Label
               _text={{
-                color: '#04d361',
+                color: '#D4D4D4',
                 fontSize: '20px',
                 fontWeight: 500,
               }}>
               Email
             </FormControl.Label>
-            <Input variant="underlined" style={style.input}/>
+            <Input  style={style.input}/>
             <Link
               _text={{ fontSize: 'xs', fontWeight: '500', color: 'white' }}
               alignSelf="flex-end"
