@@ -46,8 +46,8 @@ const style = StyleSheet.create({
 
   },
   input:{
-    // backgroundColor: '#202024',
-    borderColor: '#B5B5B5',
+    backgroundColor: '#202024',
+    borderStyle: 'none',
     height: '45px',
     color: 'white',
     fontSize: '16px'
@@ -77,24 +77,24 @@ export default function Login() {
           <FormControl>
             <FormControl.Label
               _text={{
-                color: '#04d361',
+                color: '#D4D4D4',
                 fontSize: '20px',
                 fontWeight: 500,
               }}>
               Login
             </FormControl.Label>
-            <Input style={style.input} variant="underlined" />
+            <Input style={style.input} />
           </FormControl>
           <FormControl>
             <FormControl.Label
               _text={{
-                color: '#04d361',
+                color: '#D4D4D4',
                 fontSize: '20px',
                 fontWeight: 500,
               }}>
               Senha
             </FormControl.Label>
-            <Input style={style.input} variant="underlined" type="password" />
+            <Input style={style.input} type="password" />
             <Link
               _text={{ fontSize: 'xs', fontWeight: '500', color: '#577FE5' }}
               alignSelf="flex-end"
